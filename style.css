@@ -27,10 +27,10 @@ header{
     border-bottom: 4px solid rgba(0,0,0, 0.8);
 }
 
+/*Sobre*/
 .sobre{
     width: 60%;
     margin: 0 auto;
-  
 }
 
 .sobre p{
@@ -39,17 +39,18 @@ header{
 }
 
 .sobre-textos{
+    padding-bottom: 0.5em;
     border-bottom: 5px solid rgba(0,0,0, 0.8);
 }
 
-.titulo{
+.titulos-1{
     font-size: 2em;
     text-align: center;
     font-weight: bold;
     /* text-shadow: 0px 0px 10px rgba(255,0,0, 0.8); */
 }
 
-.titulo::first-letter{
+.titulos-1::first-letter{
     font-size: 2.5em;
 }
 
@@ -77,13 +78,59 @@ header{
 }
 
 .sobre-imagens li img:hover{
-    width: 70px;
+    /* -webkit-filter: drop-shadow(5px 5px 5px #222); */
+    filter: drop-shadow(0px 0px 0.5em rgba(0,0,0,0.5));
 }
 
 #HTML-CSS-JS-Mark{
     width: 150px;
 }
 
+/*Projetos*/
+.projetos{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.projetos h1{
+    padding-bottom: 20px;
+}
+
+.titulos-2{
+    font-size: 1.5em;
+}
+.titulos-2::first-letter{
+    font-size: 2em;
+}
+
+.jogos-itens{
+    display: inline-block;
+}
+
+.jogos-nome{
+    font-size: 1.3em;
+    padding-top: 1em;
+}
+
+.jogos-descricao{
+    font-size: 1.3em;
+    padding-bottom: 1em;
+    border-bottom: 2px solid rgba(0,0,0, 0.8);
+}
+
+.jogos-itens img{
+    width: 60%;
+    transition: 1s;
+    filter: brightness(30%);
+    border-radius: 5px 2px 5px 2px;
+    box-shadow: 0 0 10px 6px rgba(0,0,0, 0.8);
+    margin: 10px 0
+}
+.jogos-itens img:hover{
+    width: 100%;
+    filter: brightness(100%);
+    box-shadow: 0 0 5px 3px rgba(0,0,0, 0.8);
+}
 
 /*Footer*/
 footer{
