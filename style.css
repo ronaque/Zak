@@ -4,10 +4,11 @@ body{
 }
 
 /*Header*/
-
+/* 
 header{
     background: url("Images/bojack.jpg");
     height: 260px;
+    border-bottom: 4px solid rgba(0,0,0, 0.8);
 }
 
 .header-background{
@@ -15,7 +16,7 @@ header{
     margin: 0 auto;
     padding: 10px 10px;
     position: relative;
-}
+} */
 
 
 /*Main*/
@@ -23,9 +24,6 @@ main{
     
 }
 
-header{
-    border-bottom: 4px solid rgba(0,0,0, 0.8);
-}
 
 /*Sobre*/
 .sobre{
@@ -124,16 +122,19 @@ header{
     filter: brightness(30%);
     border-radius: 5px 2px 5px 2px;
     box-shadow: 0 0 10px 6px rgba(0,0,0, 0.8);
-    margin: 10px 0
+    margin: 15px 0;
+    margin-left: 25%;
 }
 .jogos-itens img:hover{
     width: 100%;
+    margin-left: 0%;
+    /* transform: translateX(-25%) translateY(0%);  */
     filter: brightness(100%);
     box-shadow: 0 0 5px 3px rgba(0,0,0, 0.8);
 }
 
 /*Footer*/
-footer{
+/* footer{
     height: 200px;
     background:  #0e0f0fc4;
     border-top: 4px solid rgba(0,0,0, 0.8);
@@ -156,4 +157,4 @@ footer{
 
 .lista-footer img:hover{
     width: 75px;
-}
+} */
