@@ -4,7 +4,7 @@ body{
 }
 
 /*Header*/
-/* 
+
 header{
     background: url("Images/bojack.jpg");
     height: 260px;
@@ -16,7 +16,7 @@ header{
     margin: 0 auto;
     padding: 10px 10px;
     position: relative;
-} */
+}
 
 
 /*Main*/
@@ -46,6 +46,11 @@ main{
     text-align: center;
     font-weight: bold;
     /* text-shadow: 0px 0px 10px rgba(255,0,0, 0.8); */
+}
+
+.titulos-1 a{
+    color: #000000;
+    text-decoration: none;
 }
 
 .titulos-1::first-letter{
@@ -94,6 +99,7 @@ main{
     padding-bottom: 20px;
 }
 
+
 .titulos-2{
     font-size: 1.5em;
 }
@@ -134,7 +140,7 @@ main{
 }
 
 /*Footer*/
-/* footer{
+ footer{
     height: 200px;
     background:  #0e0f0fc4;
     border-top: 4px solid rgba(0,0,0, 0.8);
@@ -157,4 +163,4 @@ main{
 
 .lista-footer img:hover{
     width: 75px;
-} */
+} 
