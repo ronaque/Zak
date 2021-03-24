@@ -15,7 +15,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Links
 
 <!-- - Solution URL: [Add solution URL here](https://your-solution-url.com) -->
-- Live Site URL: [live Site](https://ronaque.github.io/Zak/Projects/profile-card-component-main/index.html)
+- [Live Site URL](https://ronaque.github.io/Zak/Projects/profile-card-component-main/index.html)
 
 ## My process
 
