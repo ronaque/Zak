@@ -16,12 +16,11 @@
 <body>
     <header>
         <div class="header-background">
-
         </div>
     </header>
 
     <main>
-        <section class="sobre">
+        <section class="sobre" id="sobre-id">
             <div class="sobre-textos">
                 <h1 class="titulos-1">Sobre</h1>
                 <img src="Images/Eu.jpg" id="eu" class="image-eu">
@@ -46,10 +45,18 @@
             </div>
         </section>
 
-        <section class="projetos">
-            <h1 class="titulos-1"><a href="Projetos.html" target="_blank">Projetos</a></h1>
-            <div class="jogos">
-                <h2 class="titulos-2">Jogos</h2>
+        <section class="scroll">
+            <ul class="scroll_lista">
+                <li class="scroll_item"><a href="#">Sobre</a></li>
+                <li class="scroll_item"><a href="#jogos-id">Jogos</a></li>
+                <li class="scroll_item"><a href="#projetos-id">Projetos</a></li>
+                <li class="scroll_item"><a href="#footer-id">Contato</a></li>
+            </ul>
+        </section>
+
+        <section class="trabalhos">
+            <div class="jogos" id="jogos-id">
+                <h1 class="titulos-1">Jogos</h1>
                 <ul class="jogos-lista">
                     <li class="jogos-itens">
                         <p class="jogos-nome">The Last Human</p>
@@ -84,16 +91,24 @@
                     </li>
                 </ul>
             </div>
+
+            <div class="projetos" id="projetos-id">
+                <h1 class="titulos-1"><a href="Projetos.html" target="_blank">Projetos</a></h1>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <ul class="lista-footer">
-            <li><a href="https://github.com/ronaque" target="_blank"><img src="Images/GitHub-Mark.png"
-                        alt="Logo Github"></a></li>
-            <li><a href="https://www.linkedin.com/in/isaque-barbosa-1a42b7153/" target="_blank"><img
-                        src="Images/Linkedin-Mark.png" alt="Logo Linkedin"></a></li>
-        </ul>
+    <footer id="footer-id">
+        <address>
+            <ul class="lista-footer">
+                <li><a href="https://github.com/ronaque" target="_blank"><img src="Images/GitHub-Mark.png"
+                            alt="Logo Github"></a></li>
+                <li><a href="https://www.linkedin.com/in/isaque-barbosa-1a42b7153/" target="_blank"><img
+                            src="Images/Linkedin-Mark.png" alt="Logo Linkedin"></a></li>
+                <li><a href="mailto: isaque.bm9@gmail.com"><img src="Images/gmail.png" alt="Logo Gmail"></a>
+                </li>
+            </ul>
+        </address>
     </footer>
 
 </body>
