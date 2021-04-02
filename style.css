@@ -1,3 +1,13 @@
+/*Root*/
+:root{
+    --Cinza-bg: #1d1d1d;
+    --Cinza-titulos: #4f4f4f;
+    --Cinza-nav: #AAB7B8;
+    --Azul-nav: #1B66CD;
+    --Azul-escuro-linguagens: #34495E;
+    --Branco-leve: #E5E7E9;
+}
+
 /* html */
 html {
     scroll-behavior: smooth;
@@ -6,7 +16,11 @@ html {
 /* body */
 body{
     font-family: 'Lato', sans-serif;
-    background: #E5E7E9;
+    background-color: var(--Cinza-bg);
+}
+
+body p{
+    color: var(--Branco-leve);
 }
 
 /*Header*/
@@ -50,11 +64,12 @@ main{
     font-size: 2em;
     text-align: center;
     font-weight: bold;
+    color: var(--Branco-leve);
     /* text-shadow: 0px 0px 10px rgba(255,0,0, 0.8); */
 }
 
 .titulos-1 a{
-    color: #000000;
+    color: var(--Branco-leve);
     text-decoration: none;
 }
 
@@ -87,7 +102,7 @@ main{
 
 .sobre-imagens li img:hover{
     /* -webkit-filter: drop-shadow(5px 5px 5px #222); */
-    filter: drop-shadow(0px 0px 0.5em rgba(0,0,0,0.5));
+    filter: drop-shadow(0px 0px 0.5em var(--Azul-escuro-linguagens));
 }
 
 #HTML-CSS-JS-Mark{
@@ -98,29 +113,32 @@ main{
 .scroll{
     scroll-behavior: smooth;
     position: fixed;
-    top: 50%;
+    top: calc(45% - 19px);
+    left: 5px;
     display: flex;
 }
 
 .scroll li{
-    
-    margin-left: 0px;
+    margin: 5px 0;
     text-align: center; 
-    border-top: 1px solid black; 
-    border-bottom: 1px solid black; 
-    border-right: 1px solid black; 
-    padding: 0.5em 0;
+    border: 1px solid var(--Cinza-nav); 
+    border-radius: 5px;
+    padding: 0.5em 0.5em; 
+    pointer-events: none; 
 }
 
 .scroll a{
-    color: black;
+    pointer-events: auto;
+    color: var(--Cinza-nav);
     text-decoration: none;
     
 }
 
-.scroll li:hover{
+
+.scroll li:hover, .scroll li *:hover{
     transition: 0.5s;
-    font-size: 20px;
+    border-color: var(--Azul-nav);
+    color: var(--Azul-nav);
 }
 
 /*Projetos*/
