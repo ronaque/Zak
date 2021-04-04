@@ -198,7 +198,7 @@ main{
 }
 
 /*Footer*/
- footer{
+footer{
     height: 200px;
     background:  #0e0f0fc4;
     border-top: 4px solid rgba(0,0,0, 0.8);
@@ -221,4 +221,4 @@ main{
 
 .lista-footer img:hover{
     width: 75px;
-} 
+}
