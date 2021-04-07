@@ -131,14 +131,17 @@ main{
     pointer-events: auto;
     color: var(--Cinza-nav);
     text-decoration: none;
-    
 }
-
 
 .scroll li:hover, .scroll li *:hover{
     transition: 0.5s;
     border-color: var(--Azul-nav);
     color: var(--Azul-nav);
+}
+
+.scroll li:active, .scroll li *:active{
+    border-color: var(--Azul-nav);
+    color: var(--Azul-nav); 
 }
 
 /*Projetos*/
