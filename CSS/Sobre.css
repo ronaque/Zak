@@ -1,0 +1,49 @@
+
+/*Sobre*/
+.sobre{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.sobre p{
+    font-size: 1.2em;
+    padding: 10px 0;
+}
+
+.sobre-textos{
+    padding-bottom: 0.5em;
+    border-bottom: 5px solid rgba(0,0,0, 0.8);
+}
+
+
+.image-eu{
+    position: absolute;
+    top: 150px;
+    margin-block: -10px;
+    border: 4px solid rgba(0,0,0, 0.8);
+}
+
+.sobre-imagens{
+    text-align: center;
+    border-bottom: 4px solid rgba(0,0,0, 0.8);
+}
+
+.sobre-imagens li{
+    display: inline-block;
+    
+}
+
+.sobre-imagens li img{
+    width: 50px;
+    padding: 30px 10px;
+    transition: 0.5s;
+}
+
+.sobre-imagens li img:hover{
+    /* -webkit-filter: drop-shadow(5px 5px 5px #222); */
+    filter: drop-shadow(0px 0px 0.5em var(--Azul-escuro-linguagens));
+}
+
+#HTML-CSS-JS-Mark{
+    width: 150px;
+}

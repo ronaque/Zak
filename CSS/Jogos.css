@@ -1,0 +1,36 @@
+
+/* Jogos */
+.jogos-itens{
+    display: inline-block;
+}
+
+.jogos-nome{
+    font-size: 1.3em;
+    padding-top: 1em;
+}
+
+.jogos-descricao{
+    font-size: 1.3em;
+    padding-bottom: 1em;
+    border-bottom: 2px solid rgba(0,0,0, 0.8);
+}
+
+
+.jogos-itens img{
+    width: 60%;
+    transition: 1s;
+    filter: brightness(30%);
+    border-radius: 5px 2px 5px 2px;
+    box-shadow: 0 0 10px 6px rgba(0,0,0, 0.8);
+    margin: 15px 0;
+    margin-left: 25%;
+}
+
+
+.jogos-itens img:hover{
+    width: 100%;
+    margin-left: 0%;
+    /* transform: translateX(-25%) translateY(0%);  */
+    filter: brightness(100%);
+    box-shadow: 0 0 5px 3px rgba(0,0,0, 0.8);
+}

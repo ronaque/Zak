@@ -1,6 +1,7 @@
 
+/*Header*/
 header{
-    background: url("Images/bojack.jpg");
+    background: url("../Images/bojack.jpg");
     height: 260px;
     border-bottom: 4px solid rgba(0,0,0, 0.8);
 }
@@ -11,6 +12,7 @@ header{
     padding: 10px 10px;
     position: relative;
 }
+
 
 
 /*Footer*/

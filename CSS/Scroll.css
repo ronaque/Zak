@@ -1,0 +1,35 @@
+
+/*Scroll*/
+.scroll{
+    scroll-behavior: smooth;
+    position: fixed;
+    top: calc(45% - 19px);
+    left: 5px;
+    display: flex;
+}
+
+.scroll li{
+    margin: 5px 0;
+    text-align: center; 
+    border: 1px solid var(--Cinza-nav); 
+    border-radius: 5px;
+    padding: 0.5em 0.5em; 
+    pointer-events: none; 
+}
+
+.scroll a{
+    pointer-events: auto;
+    color: var(--Cinza-nav);
+    text-decoration: none;
+}
+
+.scroll li:hover, .scroll li *:hover{
+    transition: 0.5s;
+    border-color: var(--Azul-nav);
+    color: var(--Azul-nav);
+}
+
+.scroll li:active, .scroll li *:active{
+    border-color: var(--Azul-nav);
+    color: var(--Azul-nav); 
+}
