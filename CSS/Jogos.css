@@ -1,36 +1,35 @@
-
 /* Jogos */
-.jogos-itens{
+.jogos__itens{
     display: inline-block;
 }
 
-.jogos-nome{
+.jogos__itens img{
+    border-radius: 5px 2px 5px 2px;
+    box-shadow: 0 0 10px 6px rgba(0,0,0, 0.8);
+    filter: brightness(30%);
+    margin: 15px 0;
+    margin-left: 25%;
+    transition: 1s;
+    width: 60%;
+}
+
+
+.jogos__itens img:hover{
+    box-shadow: 0 0 5px 3px rgba(0,0,0, 0.8);
+    /* transform: translateX(-25%) translateY(0%);  */
+    filter: brightness(100%);
+    margin-left: 0%;
+    width: 100%;
+}
+
+.jogos__nome{
     font-size: 1.3em;
     padding-top: 1em;
 }
 
-.jogos-descricao{
+.jogos__descricao{
+    border-bottom: 2px solid rgba(0,0,0, 0.8);
     font-size: 1.3em;
     padding-bottom: 1em;
-    border-bottom: 2px solid rgba(0,0,0, 0.8);
 }
 
-
-.jogos-itens img{
-    width: 60%;
-    transition: 1s;
-    filter: brightness(30%);
-    border-radius: 5px 2px 5px 2px;
-    box-shadow: 0 0 10px 6px rgba(0,0,0, 0.8);
-    margin: 15px 0;
-    margin-left: 25%;
-}
-
-
-.jogos-itens img:hover{
-    width: 100%;
-    margin-left: 0%;
-    /* transform: translateX(-25%) translateY(0%);  */
-    filter: brightness(100%);
-    box-shadow: 0 0 5px 3px rgba(0,0,0, 0.8);
-}

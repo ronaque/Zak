@@ -16,22 +16,35 @@
     <link rel="stylesheet" href="CSS/Scroll.css">
     <link rel="stylesheet" href="CSS/Jogos.css">
     <link rel="stylesheet" href="CSS/Projetos.css">
-
+    <link rel="stylesheet" href="CSS/Particles.css">
+    <link rel="stylesheet" href="./CSS/titulos.css">
 
 </head>
 
+
+
 <body>
+
+    <!-- Header -->
     <header>
-        <div class="header-background">
-        </div>
+        <canvas id='canvas'></canvas>
+        <script src="JS/Particles.js"></script>
+
+        <div class="header__background"></div>
     </header>
 
+
+    <!-- Particles -->
+
+
+    <!-- Main -->
     <main>
         <!-- Seção Sobre -->
         <section class="sobre" id="sobre-id">
-            <div class="sobre-textos">
-                <h1 class="titulos-1">Sobre</h1>
-                <img src="Images/Eu.jpg" id="eu" class="image-eu">
+            <!-- Textos Sobre -->
+            <div class="sobre__textos">
+                <h1 class="titulos__1">Sobre</h1>
+                <img src="Images/Eu.jpg" id="eu" class="sobre__eu">
                 <p>Isaque Barbosa Martins, 19 anos</p>
                 <p>Técnico em Jogos digitais pelo IFRN e graduando em Tecnologia da informação pela UFRN</p>
                 <p>Programador</p>
@@ -39,8 +52,8 @@
                 <p>Conhecimento nas linguagens, C, C#, Java, JavaScript e Python</p>
                 <p>Conhecimento nas engines Construct e Unity</p>
             </div>
-
-            <div class="sobre-imagens">
+            <!-- Imagens Sobre -->
+            <div class="sobre__imagens">
                 <ul>
                     <li><img src="Images/Construct-Mark.png" alt=""></li>
                     <li><img src="Images/C-Mark.png" alt=""></li>
@@ -55,11 +68,11 @@
 
         <!-- Seção Scroll -->
         <section class="scroll">
-            <ul class="scroll_lista">
-                <li class="scroll_item"><a href="#">Sobre</a></li>
-                <li class="scroll_item"><a href="#jogos-id">Jogos</a></li>
-                <li class="scroll_item"><a href="#projetos-id">Projetos</a></li>
-                <li class="scroll_item"><a href="#footer-id">Contato</a></li>
+            <ul class="scroll__lista">
+                <li class="scroll__item"><a href="#">Sobre</a></li>
+                <li class="scroll__item"><a href="#jogos-id">Jogos</a></li>
+                <li class="scroll__item"><a href="#projetos-id">Projetos</a></li>
+                <li class="scroll__item"><a href="#footer-id">Contato</a></li>
             </ul>
         </section>
 
@@ -67,59 +80,61 @@
         <section class="trabalhos">
             <!-- Jogos -->
             <div class="jogos" id="jogos-id">
-                <h1 class="titulos-1">Jogos</h1>
-                <ul class="jogos-lista">
+                <h1 class="titulos__1">Jogos</h1>
+                <ul class="jogos__lista">
                     <!-- The Last Human -->
-                    <li class="jogos-itens">
-                        <p class="jogos-nome">The Last Human</p>
+                    <li class="jogos__itens">
+                        <p class="jogos__nome">The Last Human</p>
                         <a href="https://ronaque.github.io/The%20Last%20Human/" target="_blank"><img
                                 src="Images/The-Last-Human.png" alt=""></a>
-                        <p class="jogos-descricao">Jogo desenvolvido para o trabalho de Conclusão de Curso no IFRN</p>
+                        <p class="jogos__descricao">Jogo desenvolvido para o trabalho de Conclusão de Curso no IFRN</p>
                     </li>
                     <!-- Soul Archer -->
-                    <li class="jogos-itens">
-                        <p class="jogos-nome">Soul Archer</p>
+                    <li class="jogos__itens">
+                        <p class="jogos__nome">Soul Archer</p>
                         <a href="https://ronaque.github.io/SoulArcher/" target="_blank"><img
                                 src="Images/Soul-Archer.png" alt=""></a>
-                        <p class="jogos-descricao">Jogo desenvolvido durante o primeiro semestre da matéria Motores de
+                        <p class="jogos__descricao">Jogo desenvolvido durante o primeiro semestre da matéria Motores de
                             Jogos durante o IFRN</p>
                     </li>
                     <!-- The Wizard -->
-                    <li class="jogos-itens">
-                        <p class="jogos-nome">The Wizard</p>
+                    <li class="jogos__itens">
+                        <p class="jogos__nome">The Wizard</p>
                         <a href="https://ronaque.github.io/The%20Wizard/" target="_blank"><img
                                 src="Images/The-Wizard.png" alt=""></a>
-                        <p class="jogos-descricao">Jogo desenvolvido durante o segundo semestre da matéria Motores de
+                        <p class="jogos__descricao">Jogo desenvolvido durante o segundo semestre da matéria Motores de
                             Jogos durante o IFRN</p>
                     </li>
                     <!-- Weather Gangs -->
-                    <li class="jogos-itens">
-                        <p class="jogos-nome">Weather Gangs</p>
+                    <li class="jogos__itens">
+                        <p class="jogos__nome">Weather Gangs</p>
                         <a href="https://ronaque.github.io/WeatherGangs/" target="_blank"><img
                                 src="Images/Weather-Gans.png" alt=""></a>
-                        <p class="jogos-descricao">Jogo desenvolvido durante o terceiro semestre da matéria Motores de
+                        <p class="jogos__descricao">Jogo desenvolvido durante o terceiro semestre da matéria Motores de
                             Jogos durante o IFRN</p>
                     </li>
                     <!-- ArteSaga -->
-                    <li class="jogos-itens">
-                        <p class="jogos-nome">ArteSaga</p>
+                    <li class="jogos__itens">
+                        <p class="jogos__nome">ArteSaga</p>
                         <a href="https://play.google.com/store/apps/details?id=com.SkilledCreations.ArteSaga&hl=pt_BR&gl=US"
                             target="_blank"><img src="Images/ArteSaga.png" alt=""></a>
-                        <p class="jogos-descricao">Jogo desenvolvido como projeto de extensão no IFRN</p>
+                        <p class="jogos__descricao">Jogo desenvolvido como projeto de extensão no IFRN</p>
                     </li>
                 </ul>
             </div>
 
             <!-- Projetos -->
             <div class="projetos" id="projetos-id">
-                <h1 class="titulos-1"><a href="Projetos.html" target="_blank">Projetos</a></h1>
+                <h1 class="titulos__1"><a href="Projetos.html" target="_blank">Projetos</a></h1>
             </div>
         </section>
     </main>
 
+
+    <!-- Footer -->
     <footer id="footer-id">
         <address>
-            <ul class="lista-footer">
+            <ul class="lista__footer">
                 <li><a href="https://github.com/ronaque" target="_blank"><img src="Images/GitHub-Mark.png"
                             alt="Logo Github"></a></li>
                 <li><a href="https://www.linkedin.com/in/isaque-barbosa-1a42b7153/" target="_blank"><img
